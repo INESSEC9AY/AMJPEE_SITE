@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Membres - AMJPEE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="membres.html">Membres</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Nos Membres</h1>
+    <div class="membres">
+      <div class="membre">
+        <img src="images/presidente.jpg" alt="Présidente Fondatrice AMJPEE">
+        <h3>Nom Prénom</h3>
+        <p>Président(e)</p>
+      </div>
+
+      <div class="membre">
+        <img src="images/vice.jpg" alt="Vice-président AMJPEE">
+        <h3>Nom Prénom</h3>
+        <p>Vice-président(e)</p>
+      </div>
+
+      <div class="membre">
+        <img src="images/secretariat.jpg" alt="Secrétaire général administrative AMJPEE">
+        <h3>Nom Prénom</h3>
+        <p>Secrétaire général(e)</p>
+      </div>
+
+      <div class="membre">
+        <img src="images/tresorier.jpg" alt="Trésorier AMJPEE">
+        <h3>Nom Prénom</h3>
+        <p>Trésorier(e)</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    © AMJPEE — Tous droits réservés
+  </footer>
+</body>
+</html>
