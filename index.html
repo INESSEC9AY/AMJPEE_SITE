@@ -4,96 +4,122 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Association Malienne des Jeunes Prêts pour l'Emploi et l'Entrepreneuriat</title>
+  <meta name="description" content="AMJPEE — L’avenir se crée par nos mains. Formations pratiques, insertion professionnelle et entrepreneuriat des jeunes au Mali.">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/logo.png">
 </head>
 <body>
 
-  <!-- En-tête et navigation -->
-  <header>
-    <div class="container">
-      <h1>Association Malienne des Jeunes Prêts pour l'Emploi et l'Entrepreneuriat</h1>
-      <nav>
-        <ul>
-          <li><a href="#accueil">Accueil</a></li>
-          <li><a href="#apropos">À propos</a></li>
-          <li><a href="#programmes">Programmes</a></li>
-          <li><a href="#membres">Membres</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+  <!-- En-tête -->
+  <header class="site-header">
+    <div class="container header-bar">
+      <div class="brand">
+        <img class="logo" src="images/logo.png" alt="Logo AMJPEE">
+        <div class="brand-text">
+          <strong>AMJPEE</strong>
+          <span>Association Malienne des Jeunes Prêts pour l'Emploi et l'Entrepreneuriat</span>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <a href="#accueil">Accueil</a>
+        <a href="#apropos">À propos</a>
+        <a href="#programmes">Programmes</a>
+        <a href="#membres">Membres</a>
+        <a class="btn" href="#contact">Contact</a>
       </nav>
     </div>
+    <div class="header-accent"></div>
   </header>
 
-  <!-- Section Accueil -->
-  <section id="accueil" class="section">
-    <h2>Bienvenue</h2>
-    <p>Notre association accompagne les jeunes à travers des formations pratiques et un encadrement adapté pour favoriser l’emploi et l’entrepreneuriat.</p>
-  </section>
-
-  <!-- Section À propos -->
-  <section id="apropos" class="section">
-    <h2>À propos</h2>
-    <p>L’AMJPEE est une association engagée dans la promotion de l’insertion professionnelle et de l’entrepreneuriat des jeunes au Mali.</p>
-  </section>
-
-  <!-- Section Programmes -->
-  <section id="programmes" class="section">
-    <h2>Nos Programmes</h2>
-    <p>Nous mettons en place des programmes de formation, d’accompagnement et de mentorat pour aider les jeunes à réussir.</p>
-  </section>
-
-  <!-- Section Membres -->
-  <section id="membres" class="section">
-    <h2>Nos Membres</h2>
-    <p>Voici le bureau et les membres actifs de l’AMJPEE :</p>
-
-    <div class="membres-grid">
-      <!-- Présidente fondatrice -->
-      <article class="membre">
-        <img src="images/presidente.jpg" alt="Présidente fondatrice">
-        <h4>Nom Prénom</h4>
-        <p>Présidente fondatrice</p>
-      </article>
-
-      <!-- Vice-président -->
-      <article class="membre">
-        <img src="images/vice.jpg" alt="Vice-président">
-        <h4>Nom Prénom</h4>
-        <p>Vice-président</p>
-      </article>
-
-      <!-- Secrétaire général -->
-      <article class="membre">
-        <img src="images/secretaire.jpg" alt="Secrétaire général">
-        <h4>Nom Prénom</h4>
-        <p>Secrétaire général administratif</p>
-      </article>
-
-      <!-- Trésorier -->
-      <article class="membre">
-        <img src="images/tresorier.jpg" alt="Trésorier">
-        <h4>Nom Prénom</h4>
-        <p>Trésorier</p>
-      </article>
-
-      <!-- Chargé de communication -->
-      <article class="membre">
-        <img src="images/communication.jpg" alt="Chargé de communication">
-        <h4>Nom Prénom</h4>
-        <p>Chargé de communication</p>
-      </article>
+  <!-- Accueil -->
+  <section id="accueil" class="section hero">
+    <div class="container">
+      <h1>L’avenir se crée par nos mains</h1>
+      <p>Nous accompagnons les jeunes avec des <strong>formations 100% pratiques</strong> pour accélérer l’emploi et l’entrepreneuriat au Mali.</p>
+      <div class="cta-row">
+        <a class="btn" href="#programmes">Découvrir nos programmes</a>
+        <a class="btn outline" href="#membres">Voir le bureau</a>
+      </div>
     </div>
   </section>
 
-  <!-- Section Contact -->
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Vous pouvez nous contacter par email : <a href="mailto:contact@amjpee.org">contact@amjpee.org</a></p>
+  <!-- À propos -->
+  <section id="apropos" class="section">
+    <div class="container">
+      <h2>À propos</h2>
+      <p>L’AMJPEE œuvre pour l’<strong>insertion professionnelle</strong> et la <strong>création d’entreprises</strong> par les jeunes, via des parcours concrets, du mentorat et des mises en situation réelles.</p>
+    </div>
   </section>
 
-  <!-- Pied de page -->
-  <footer>
-    <p>© 2025 AMJPEE — Tous droits réservés</p>
+  <!-- Programmes -->
+  <section id="programmes" class="section alt">
+    <div class="container">
+      <h2>Nos Programmes</h2>
+      <ul class="prog-list">
+        <li><span class="badge green"></span> Formations métiers et bureautique appliquée</li>
+        <li><span class="badge yellow"></span> Ateliers d’entrepreneuriat et coaching business</li>
+        <li><span class="badge red"></span> Stages, immersions terrain et accompagnement à l’emploi</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Membres -->
+  <section id="membres" class="section">
+    <div class="container">
+      <h2>Nos Membres</h2>
+      <p>Le bureau exécutif de l’AMJPEE.</p>
+
+      <div class="membres-grid">
+        <!-- Présidente fondatrice -->
+        <article class="membre">
+          <img src="images/presidente.jpg" alt="Présidente fondatrice">
+          <h4>Nom Prénom</h4>
+          <p class="role">Présidente fondatrice</p>
+        </article>
+
+        <!-- Vice-président -->
+        <article class="membre">
+          <img src="images/vice.jpg" alt="Vice-président">
+          <h4>Nom Prénom</h4>
+          <p class="role">Vice-président</p>
+        </article>
+
+        <!-- Secrétaire général administratif -->
+        <article class="membre">
+          <img src="images/secretaire.jpg" alt="Secrétaire général administratif">
+          <h4>Nom Prénom</h4>
+          <p class="role">Secrétaire général administratif</p>
+        </article>
+
+        <!-- Trésorier -->
+        <article class="membre">
+          <img src="images/tresorier.jpg" alt="Trésorier">
+          <h4>Nom Prénom</h4>
+          <p class="role">Trésorier</p>
+        </article>
+
+        <!-- Chargé de communication -->
+        <article class="membre">
+          <img src="images/communication.jpg" alt="Chargé de communication">
+          <h4>Nom Prénom</h4>
+          <p class="role">Chargé de communication</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Écrivez-nous : <a href="mailto:contact@amjpee.org">contact@amjpee.org</a></p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      © 2025 AMJPEE — Tous droits réservés
+    </div>
   </footer>
 
 </body>
